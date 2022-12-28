@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="calculator">
+    <div class="input">
+      <div data-previous-operand> </div>
+      <div data-current-operand> </div>
+    </div>
+
+    <div class="buttons">
+      <div class="operators">
+        <div data-operation>+</div>
+        <div data-operation>-</div>
+        <div data-operation>*</div>
+        <div data-operation>÷</div>
+      </div>
+      <div class="box">
+        <div class="leftPanel">
+          <div class="numbers">
+            <div data-number>7</div>
+            <div data-number>8</div>
+            <div data-number>9</div>
+          </div>
+          <div class="numbers">
+            <div data-number>4</div>
+            <div data-number>5</div>
+            <div data-number>6</div>
+          </div>
+          <div class="numbers">
+            <div data-number>1</div>
+            <div data-number>2</div>
+            <div data-number>3</div>
+          </div>
+          <div class="numbers">
+            <div data-number>0</div>
+            <div data-number="">.</div>
+            <div id="clear" data-delete>C</div>
+          </div>
+        </div>
+        <div class="side-bar-right">
+          <div class="ac" data-all-clear>A/C</div>
+          <div class="equal" id="result" data-equals>=</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
